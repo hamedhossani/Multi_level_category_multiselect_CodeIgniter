@@ -74,4 +74,9 @@ initial parms is
 ```    
 or built multi select by 
 
-```$this->control_general->generate_multi_select($name, $list_build, $selected_list, $extra)```
+```
+$this->control_general->generate_multi_select($name, $list_build, $selected_list, $extra)
+```
+Final View Is
+![image](https://cloud.githubusercontent.com/assets/22195058/23179828/2b30d52c-f867-11e6-8d45-2afc80a46bb8.png)
+
