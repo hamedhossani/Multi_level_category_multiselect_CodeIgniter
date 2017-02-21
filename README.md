@@ -14,12 +14,12 @@ How To Use?
 ```
 application/library
 ```
-2.load library.
+2.in your Controller load library.
 ```
 $this->load->library ( 'control_general' );
 ```
 
-3.set initial values
+3.in your Controller set initial values
 
 my sample table is
 ```
@@ -44,7 +44,7 @@ initial parms is
 
 		$this->control_general->initialize($params);
 
-4.generate data from table
+4.in your controller Generate Data from Table
 
  ```
  $list_build=$ci->control_general->generate_list($menu_list_from_table);
@@ -62,7 +62,7 @@ initial parms is
  [8] => Array ( [114] => -> تست شش6 )
  [9] => Array ( [108] => -> -> تست 2 )
 ```
-5.inject data genarated to ```$form->multi_select()```
+5.in your View page Inject data genarated to ```$form->multi_select()```
  
  ```
     echo(form_multiselect (
